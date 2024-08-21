@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VDU posture monitor</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="logo.svg">
+
+    <!-- og stuff -->
+    <meta property="og:image" content="logo.jpg">
+    <meta property="og:title" content="VDU posture monitor">
+    <meta property="og:description" content="Maintain a good posture while working on a computer.">
+    <meta property="og:url" content="http://example.com">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="VDU posture monitor">
+
+    <!-- twitter stuff -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@vdu">
+    <meta name="twitter:creator" content="@vdu">
+    <meta name="twitter:title" content="VDU posture monitor">
+    <meta name="twitter:description" content="Maintain a good posture while working on a computer.">
+    <meta name="twitter:image" content="logo.jpg">
+    <meta name="twitter:image:alt" content="VDU posture monitor logo">
+</head>
+<body>
+
+    <header><div>
+        <div class="left">
+            <span class="logo">
+                <img src="logo.svg" alt="logo" class="inline-logo-image" />
+                <div class="logo-text glow">VDU monitor</div>
+            </span>
+        </div>
+        <div class="center">
+            <div class="links">
+                <a href="#" class="glow">Get</a>
+                <a href="#">Info</a>
+                <a href="#">Pricing</a>
+                <a href="#">More products</a>
+            </div>
+        </div>
+        <div class="right">
+            <!-- ... -->
+            <a class="try-button" href="#">
+                Try it >
+            </a>
+        </div>
+    </div></header>
+
+    <main>
+        <div class="big-title">
+            Keep a good posture while working
+        </div>
+        <div class="big-sub-title">
+            with <i class="glow">VDU posture monitor</i> <br>
+        </div>
+        <div style="margin-bottom: 3em; align-items: center; display: flex; flex-direction: column; font-size: 1.5em;">
+            <div style="display: flex; gap: 0.5em;">
+                <a class="try-button" href="#">
+                    Try it >
+                </a>
+                <a class="try-button" href="#">
+                    Download
+                </a>
+            </div>
+        </div>
+        <style>
+            .big-title {
+                margin-top: 1em;
+                font-size: 2em;
+                font-weight: bold;
+                text-align: center;
+                color: white;
+            }
+            .big-sub-title {
+                font-size: 1.25em;
+                font-weight: bold;
+                text-align: center;
+                margin-bottom: 1em;
+            }
+        </style>
+
+        <div style="display: flex; flex-direction: column; gap: 2em">
+        <div style="display: flex; align-items: center; gap: 2em;">
+            <div style="flex-grow: 1; flex-basis: 1em; box-shadow: 0px 0px 10px 0px #21D4FD; border-radius: 5px; overflow: hidden;">
+                <!--img src="screenshot.jpg" alt="a" style="width: 100%;"-->
+                <video style="width: 100%;" autoplay muted poster="screenshot.jpg" preload="none" loop>
+                    <source type="video/mp4" src="output.mp4">
+                    <!-- ffmpeg -i `2024-04-04 12-56-25.mkv` -vcodec libx264 -crf 23 -preset veryfast -acodec aac -strict -2 -b:a 128k -movflags +faststart output.mp4 -->
+                </video>
+            </div>
+            <div style="flex-grow: 1; flex-basis: 1em;">
+                <div style="font-size: 1.5em; font-weight: bold;" class="glow">How it works</div>
+                <p>VDU posture monitor uses the computer webcam to monitor your posture while working on a computer. It provides feedback if you are not sitting correctly. The application is easy to use and does not require any additional hardware.</p>
+                <p>Available for <b>Windows</b>, <b>macOS</b>, and <b>Linux</b>.</p>
+            </div>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 2em;">
+            <div style="flex-grow: 1; flex-basis: 1em;">
+                <img src="plot.jpg" alt="a" style="width: 100%;">
+            </div>
+            <div style="flex-grow: 1; flex-basis: 1em;">
+                <div style="font-size: 1.5em; font-weight: bold;" class="glow">Powerful Statistics</div>
+                <p>See how your posture changes over time.</p>
+                <p>VDU posture monitor provides detailed information about your posture and helps you to improve it.</p>
+            </div>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 2em;">
+            <div style="flex-grow: 1; flex-basis: 1em;">
+                <img src="plot.jpg" alt="a" style="width: 100%;">
+            </div>
+            <div style="flex-grow: 1; flex-basis: 1em;">
+                <div style="font-size: 1.5em; font-weight: bold;" class="glow">Professional Reports</div>
+                <p>Get professional reports about your posture.</p>
+            </div>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 2em;">
+            <div style="flex-grow: 1; flex-basis: 1em;">
+                <img src="plot.jpg" alt="a" style="width: 100%;">
+            </div>
+            <div style="flex-grow: 1; flex-basis: 1em;">
+                <div style="font-size: 1.5em; font-weight: bold;" class="glow">Share your progress</div>
+                <p>Share your progress with your physiotherapist or doctor.</p>
+            </div>
+        </div>
+        </div>
+
+        <h1>VDU posture monitor</h1>
+        <p>VDU posture monitor is a web application that helps you to maintain a good posture while working on a computer. It uses a webcam to monitor your posture and provides feedback if you are not sitting correctly.</p>
+        <p>For more information, visit the <a href="#">Info page</a>.</p>
+    </main>
+
+    <footer>
+        <div>
+            ciao
+        </div>
+    </footer>
+
+</body> 
+</html>
